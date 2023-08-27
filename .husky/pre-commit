@@ -3,7 +3,6 @@
 
 echo ""
 echo " ------------------------------------------------------------------------------------------------ "
-echo " Je suis un message provenant du hook pre-commit dans le répertoire .husky"
-echo " Démarrage de commitlint"
+echo " PRE-COMMIT"
 echo " ------------------------------------------------------------------------------------------------ "
 echo ""
