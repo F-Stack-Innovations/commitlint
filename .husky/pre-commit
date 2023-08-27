@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo ""
+echo " ------------------------------------------------------------------------------------------------ "
+echo " Je suis un message provenant du hook pre-commit dans le répertoire .husky"
+echo " Démarrage de commitlint"
+echo " ------------------------------------------------------------------------------------------------ "
+echo ""
