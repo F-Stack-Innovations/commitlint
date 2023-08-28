@@ -44,9 +44,9 @@ module.exports = {
      * Règle pour la longueur maximale des lignes du corps
      * Niveau 2 : Erreur si la règle n'est pas respectée
      * Toujours vérifiée
-     * Longueur maximale : 100 caractères
+     * Longueur maximale : 500 caractères ( 0 = Pas de limite)
      */
-    "body-max-line-length": [2, "always", 100],
+    "body-max-line-length": [2, "always", 500],
 
     // Ajoutez une ligne vide après le type de commit
     "body-leading-blank": [2, "always"],

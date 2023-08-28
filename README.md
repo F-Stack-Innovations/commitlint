@@ -204,7 +204,7 @@ module.exports = {
     ],
     "scope-enum": [2, "always", ["core", "ui", "backend", "frontend"]],
     "subject-case": [2, "always", "sentence-case"],
-    "body-max-line-length": [2, "always", 100],
+    "body-max-line-length": [2, "always", 500],
     "body-leading-blank": [2, "always"],
     "scope-empty": [2, "never"],
     "scope-case": [2, "always", "lower-case"],
@@ -223,7 +223,7 @@ module.exports = {
 | `type-enum`            | Types de commit autorisés.                                                                 | ["feat", "fix", "docs", "style", "refactor", "test", "chore"] |
 | `scope-enum`           | Portées autorisées.                                                                        | ["core", "ui", "backend", "frontend"]                         |
 | `subject-case`         | Casse de la description du commit.                                                         | "Ajoute une nouvelle fonctionnalité"                          |
-| `body-max-line-length` | Longueur maximale des lignes du corps.                                                     | 100 caractères                                                |
+| `body-max-line-length` | Longueur maximale des lignes du corps.                                                     | 500 caractères                                                |
 | `body-leading-blank`   | Ligne vide requise après le type de commit.                                                | Oui                                                           |
 | `scope-empty`          | Interdiction d'un scope vide.                                                              | Non                                                           |
 | `scope-case`           | Casse du scope en minuscules.                                                              | "core"                                                        |
